@@ -23,9 +23,11 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="30dp"
             android:gravity="center"
-            android:text="MyShopVirtual" />
+            android:fontFamily="@font/aladin"
+            android:textColor="#F44336"
+            android:text="MyShopVirtual-Red Dragon"
+            android:textSize="30dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -47,6 +49,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/aladin"
             android:textSize="30dp"
             android:gravity="left"
             android:hint="E-mail"
@@ -71,6 +74,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:ems="10"
+            android:fontFamily="@font/aladin"
             android:textSize="30dp"
             android:gravity="left"
             android:hint="Password"
@@ -93,9 +97,12 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="25dp"
+            android:fontFamily="@font/aladin"
             android:gravity="center"
-            android:text="Iniciar Sesión" />
+            android:text="Iniciar Sesión"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25dp"
+            app:iconTint="@color/white" />
     </LinearLayout>
 
     <LinearLayout
@@ -114,8 +121,10 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:textSize="25dp"
+            android:fontFamily="@font/aladin"
             android:gravity="center"
-            android:text="Registrarse" />
+            android:text="Registrarse"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="25dp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
