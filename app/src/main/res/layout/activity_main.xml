@@ -123,6 +123,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/aladin"
             android:gravity="center"
+            android:onClick="Register"
             android:text="Registrarse"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="25dp" />
